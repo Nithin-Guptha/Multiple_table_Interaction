@@ -37,12 +37,5 @@ public class EmpController {
 	public String updateDepartment(@RequestBody DepartmentReq deptReq) {		
 		return empService.updateDepartment(deptReq);
 	}
-//	@PostMapping("/DepartmentHistory")
-//	public String DepartmentHistory(@RequestBody DepartmentReq departmentReq) {
-//		//TODO: process POST request
-//		
-//		return empService.deptHistory();
-//	}
 	
-
 }
