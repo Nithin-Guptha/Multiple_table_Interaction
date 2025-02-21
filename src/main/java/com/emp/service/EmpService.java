@@ -97,7 +97,6 @@ public class EmpService {
 				er.setQualification(qualify);
 				empRes.add(er);
 			}
-
 			return new Response<>("SUCCESS", "Data fetched successfully", empRes);
 		} catch (Exception e) {
 			return new Response<>("FAILURE", "Error fetching data: " + e.getMessage(), null);
