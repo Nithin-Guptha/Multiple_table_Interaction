@@ -133,7 +133,6 @@ public class EmpService {
 	}
 
 	
-	
 	public String updateDepartment(DepartmentReq deptReq) {
 		Department dept=new Department();
 		dept.setDept_id(deptReq.getDept_id());
